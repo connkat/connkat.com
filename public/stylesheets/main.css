@@ -1,0 +1,42 @@
+.jumbotron {
+  background: white;
+  color: white;
+  padding: 0;
+}
+
+.jumbotron .btn-primary:hover {
+  background: black;
+}
+.jumbotron p {
+  color: black;
+  line-height: 1;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.jumbotron h1 {
+  color: black;
+  font-size: 30px;
+}
+
+.navbar + .jumbotron {
+  margin-top: -20px;
+}
+.jumbotron .image {
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
+  margin: auto;
+  border: 2px solid black;
+}
+.jumbotron .image img {
+  max-width: 100%;
+}
